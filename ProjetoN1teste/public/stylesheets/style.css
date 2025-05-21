@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f0e8da;
+}
+
+header {
+  background-color: #a0522d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+main {
+  padding: 40px;
+}
+
+.livros-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.livros-container img {
+  width: 130px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 300px; /* aumenta o espaçamento entre os links */
+}
+
+nav a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
