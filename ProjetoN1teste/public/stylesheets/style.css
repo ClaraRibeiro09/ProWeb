@@ -72,5 +72,19 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
+
+.logo {
+  height: 70px; /* ou o tamanho que quiser */
+  margin-right: 10px; /* espaço entre a imagem e o texto */
+  vertical-align: middle;
+}
+
+ .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
