@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Meus Livros</title>
+  <meta charset="UTF-8" />
+  <title>Sua estante - Meus livros</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+      background-color: #f1e3ce;
+    }
+
+    .logo {
+      height: 70px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+
+    .search input {
+      border: none;
+      outline: none;
+      padding: 5px;
+    }
+
+    .search img {
+      width: 16px;
+      height: 16px;
+    }
+
+    .container {
+      padding: 30px 60px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #000;
+      margin-bottom: 30px;
+    }
+
+    .livros-box {
+      background-color: #e4b075;
+      border-radius: 15px;
+      min-height: 600px;
+      padding: 40px;
+      display: flex;
+      gap: 60px;
+      flex-wrap: wrap;
+     justify-content: flex-start;
+    }
+
+    .livros-box img {
+      height: 250px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .livros-box img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-  <h1>Meus Livros</h1>
-  <p>Lista dos livros vai aqui.</p>
+
+  <header>
+    <img src="/images/logo2.jpg" alt="Logo" class="logo">
+    <nav>
+      <a href="/meusLivros">Meus livros</a>
+      <a href="/login">Login</a>
+    </nav>
+    <div class="search">
+      <input type="text" placeholder="Busque pelo título">
+      <img src="/images/IconPesquisa2.png" alt="Buscar">
+    </div>
+  </header>
+
+  <div class="container">
+    <h2>Seus livros favoritados:</h2>
+    <div class="livros-box">
+      <img src="/images/AguaViva.jpg" alt="Livro Água Viva">
+      <img src="/images/AmoresVerdadeiros.jpg" alt="Livro Amor(es) Verdadeiro(s)">
+      <img src="/images/DepoisVerão.jpg" alt="Livro Depois Daquele Verão">
+    </div>
+  </div>
+
 </body>
 </html>
