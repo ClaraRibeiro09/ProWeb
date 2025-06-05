@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f0e8da;
+}
+
+header {
+  background-color: #a0522d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;       /* lado a lado */
+  align-items: flex-start;
+  margin: 40px auto;
+  gap: 40px;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+
+.book-cover img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+main {
+  padding: 40px;
+}
+
+.livros-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.livros-container img {
+  width: 130px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 300px; /* aumenta o espaçamento entre os links */
+}
+
+nav a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.logo {
+  height: 70px; /* ou o tamanho que quiser */
+  margin-right: 10px; /* espaço entre a imagem e o texto */
+  vertical-align: middle;
+}
+
+ .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+  
+    .book-meta {
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+/* Título e detalhes à direita da imagem */
+.book-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-details h1 {
+  font-size: 60px;
+  margin: 0;
+  color: #333;
+}
+
+/* Avaliação (nota e botão) */
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.rating-box {
+  background-color: #f4d6a0;
+  padding: 10px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Estrelas */
+.stars {
+  font-size: 35px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* Botão de favoritar */
+.favorite-button {
+  background-color: #7a3b1c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.book-info {
+  font-size: 18px;  /* Altere esse valor conforme desejar */
+  line-height: 1.4;
+  text-align: justify;
+  color: #222;
+}
+
+.book-meta {
+  font-size: 20px; 
+  margin-top: 15px;
+}
